@@ -504,6 +504,7 @@ header{
   flex-direction: row;
 
   padding-top: 109px;
+  padding: 109px 220px 0px 20px;
   gap: 90px;
 }
 
@@ -578,10 +579,35 @@ header{
 }
 
 .statistic__blocks{
-  padding-top: 78px;
+  padding-top: 132px;
+
+  display: flex;
+  flex-direction: row;
+  gap: 85px;
 }
 
 .statistic__block{
   width: 306px;
 }
 
+.statistic__number{
+  text-align: left;
+  font-size: 64px;
+  font-weight: bold;
+  border-bottom: #FFFFFF solid 2px;
+}
+
+.statistic__text{
+  padding-top: 30px;
+  text-align: left;
+  font-size: 18px;
+  font-weight: regular;
+}
+
+.statistic__buttons{
+  padding-top: 115px;
+  padding-bottom: 143px;
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+}
