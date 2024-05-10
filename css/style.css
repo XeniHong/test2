@@ -658,8 +658,16 @@ header{
   width: 288px;
   height: 310px;
   background-color: #FFFFFF;
-  box-shadow: 13px 5px 32px 8px rgba(34, 60, 80, 0.21);
+  border: none;
+
+  box-shadow: 27px 10px 30px 2px rgba(34, 60, 80, 0.2);
   transition: all 2s;
+}
+.startap__block:first-child{
+  box-shadow: 2px 18px 40px 7px rgba(34, 60, 80, 0.17);
+}
+.startap__block:last-child{
+  box-shadow: 24px 18px 27px 2px rgba(34, 60, 80, 0.2);
 }
 .startap__block:hover{
   width: 328px;
@@ -670,7 +678,6 @@ header{
     filter: alpha(opacity=100);
     transition: all 2s;
   }
-
   >.startap__text{
     opacity: 1.0;
     transition: all 1s;
@@ -681,8 +688,25 @@ header{
   }
 }
 
+ .startap__block--active{
+  width: 328px;
+  height: 339px;
+  >.startap__img{
+    opacity: 1.0;
+    filter: alpha(opacity=100);
+  }
+  >.startap__text{
+    opacity: 1.0;
+  }
+  >.startap__h{
+    opacity: 1.0;
+  }
+}
+
+
 
 .startap__block img{
+  padding-left: 112px;
   padding-top: 110px;
   opacity: 0.2;
   filter: alpha(opacity=40); /*для IE8 и более ранних версий*/
@@ -699,4 +723,94 @@ header{
   font-size: 21px;
   font-weight: bold;
   opacity: 0.2;
+  padding-bottom: 81px;
+}
+
+/* Вторая часть */
+.startap__textButtons{
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  text-align: left;
+  color: #000000;
+  gap: 100px;
+  padding-top: 130px;
+}
+
+.startap__img{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.reg__rectangle{
+  width: 302px;
+  height: 327px;
+  background-color: #194DD2;
+  border-radius: 5px;
+
+}
+.startap__textButton .reg__rectangle p{
+  color: #FFFFFF;
+  padding-top: 180px;
+  padding-left: 40px;
+  font-size: 42px;
+  font-weight: bold;
+}
+.startap__img img{
+  width: 302px;
+  height: 327px;
+}
+.reg__img{
+  width: 629px;
+  height: 201px;
+  padding-top: 20px;
+}
+
+.startap__textButton p{
+  padding-top: 10px;
+  font-size: 18px;
+  font-weight: normal;
+  color: #000000;
+}
+.startap__textButton b{
+  font-size: 18px;
+}
+.startap__textButton h2{
+  padding: 40px 0px;
+}
+.startap__textButton a{
+  color: #0A51CB;
+}
+
+/* -----button------ */
+.startap__btn{
+  border: #0A51CB solid 2px;
+  border-radius: 40px;
+  width: 449px;
+  height: 60px;
+  background: #0A51CB;
+  color: #FFFFFF;
+  cursor: pointer;
+  font-family: "Monsterrat";
+  font-weight: medium;
+  font-size: 18px;
+}
+.startap__btn:hover {
+  border: #194DD2 solid 2px;
+  background: #FFFFFF;
+  color: #194DD2;
+  transition: all 1s;
+}
+
+.startap__textButtons .startap__textButton button{
+  position: absolute;
+  bottom: 0px;
+}
+
+/* ---------------------------------------------------------------------------------------how-------------------------------------- */
+
+.how__wrapper{
+  width: 90%;
+  text-align: center;
+  color: #000000;
 }
