@@ -782,6 +782,15 @@ header{
   color: #0A51CB;
 }
 
+.change__longText--2{
+  overflow: hidden;
+text-overflow: ellipsis;
+display: -webkit-box;
+-webkit-line-clamp: 4;
+-webkit-box-orient: vertical;
+}
+
+
 /* -----button------ */
 .startap__btn{
   border: #0A51CB solid 2px;
@@ -811,6 +820,60 @@ header{
 
 .how__wrapper{
   width: 90%;
-  text-align: center;
   color: #000000;
+}
+
+.how__blocks{
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-top: 150px;
+ gap: 93px;
+}
+
+.how__title{
+  padding-top: 23px;
+}
+
+.how__line{
+  width: 65px;
+  border-bottom: #0A51CB solid 3px;
+  padding-top: 37px;
+}
+.how__text{
+  padding-top: 41px;
+  font-size: 18px;
+}
+.how__text a{
+  color: #0A51CB;
+}
+
+.how__button{
+  position: absolute;
+  bottom: 37px;
+}
+
+
+.how__img{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.how__block .reg__rectangle p{
+  color: #FFFFFF;
+  padding-top: 180px;
+  padding-left: 40px;
+  font-size: 42px;
+  font-weight: bold;
+}
+.how__img img{
+  width: 302px;
+  height: 327px;
+}
+.reg__img{
+  width: 629px;
+  height: 201px;
+  padding-top: 20px;
 }
