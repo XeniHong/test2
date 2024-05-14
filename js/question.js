@@ -17,7 +17,7 @@ btn3.addEventListener('click', showwhich);
 
 btn3.classList.add("question__block--active")
 question.innerText = "Какая минимальная и максимальная сумма депозита?";
-text.innerText = "Минимальный размер депозита – 100 рублей.  \n  \n  Максимальный размер депозита – 80 000 000 рублей.";
+text.innerText = "Минимальный размер депозита – 100 рублей. \n  \n  Максимальный размер депозита – 80 000 000 рублей.";
 
 
 
@@ -50,7 +50,7 @@ function showcan() {
 function showwhich() {
     btn3.classList.add("question__block--active");
     question.innerText = " Какая минимальная и максимальная сумма депозита?";
-    text.innerText = " Минимальный размер депозита – 100 рублей. <br><br> Максимальный размер депозита – 80 000 000 рублей.";
+    text.innerText = " Минимальный размер депозита – 100 рублей. \n  \n  Максимальный размер депозита – 80 000 000 рублей.";
     
     checkTopic();
       //убираем предыдущие кнопки
