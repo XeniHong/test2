@@ -57,6 +57,8 @@ h4{
   }
 }
 
+
+
 /* ---------------------------------button------------------------- */
 .header__btn{
   border: none;
@@ -388,6 +390,17 @@ header{
   } 
 }
 
+@media (max-width: 700px){
+  .header__right{
+    width: auto;
+  }
+  .header__left{
+    display: none;
+  }
+  .header__text{
+    padding: 20px;
+  }
+}
 /*---------------------------------------- registration ----------------------------*/
 
 .registrations__wrapper{
@@ -1058,6 +1071,14 @@ display: -webkit-box;
 .startap__textButtons .startap__textButton button{
   position: absolute;
   bottom: 0px;
+}
+
+@media (max-width: 700px){
+  .startap__btn{
+    width: auto;
+    font-size: 12px;
+    word-wrap: break-word;
+  }
 }
 
 @media (max-width: 900px){
