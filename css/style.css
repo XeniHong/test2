@@ -940,6 +940,7 @@ display: -webkit-box;
 .question__block--active {
   background: #f2f5fc;
   color: #194DD2;
+  border: #194DD2 solid 1px;
   transition: all 1s;
 
   >svg:last-child{
@@ -1027,8 +1028,7 @@ display: -webkit-box;
   }
 }
 
-.footer__href{
-}
+
 .footer__href a{
   display: flex;
   flex-direction: column;
