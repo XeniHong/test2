@@ -483,6 +483,19 @@ header{
   }
 }
 
+@media (max-width: 700px){
+  .registration__img img{
+    display: none;
+  }
+  .reg__img{
+    padding: 0px 20px;
+  }
+
+  .registration__block h2{
+      text-align: center;
+  }
+}
+
 /*---------------------------------------------- screen2------------------------- */
 
 .screen2__wrapper{
@@ -762,6 +775,13 @@ header{
     padding-top: 109px;
     gap: 90px;
   }
+  .advantages__text p{
+    width: auto;
+  }
+}
+
+@media (max-width: 700px){
+
 }
 
 /*---------------------------------------------- statistic ---------------------------*/
@@ -1182,6 +1202,18 @@ display: -webkit-box;
   }
 }
 
+@media (max-width: 700px){
+  .how__img{
+    display: none;
+  }
+  .reg__img{
+    display: none;
+  }  
+  .how__blocks{
+    padding-top: 100px;
+  }
+}
+
 /* --------------------------------------------------------------------------------------------question ---------------------------------------*/
 
 .question__wrapper{
@@ -1296,6 +1328,11 @@ display: -webkit-box;
 
 @media (max-width: 900px){
 
+  .question__btn{
+    width: auto;
+    height: 130px;
+   
+  }
   .question__tittle{
     padding-top: 100px;
   }
@@ -1309,6 +1346,30 @@ display: -webkit-box;
   }
   
 }
+
+@media (max-width: 700px){
+  .question__item svg:first-child{
+    position: absolute;
+    left: 20px;
+  }
+
+  .question__item p{
+    padding: 20px;
+  }
+
+  .question__btn{
+    gap: 20px;
+    padding-left: 40px;
+  
+    >svg:last-child{
+      position: absolute;
+      right: 20px;
+      transition: all 1.5s;
+    }
+  }
+  
+}
+
 /* ---------------------------------------------------------------------------------footer ----------------------------------------------*/
 
 .footer__wrapper{
