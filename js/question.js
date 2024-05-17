@@ -26,7 +26,7 @@ text.innerText = "Минимальный размер депозита – 100 �
 function showwhat() {
     btn1.classList.add("question__block--active");
     question.innerText = " Что нужно, чтобы начать работу с future technologies company (ftc)?";
-    text.innerText = "Что-то определеноо нужно, но я хз если честно";
+    text.innerText = "Что-то определеноо нужно";
     
     checkTopic();
       //убираем предыдущие кнопки
